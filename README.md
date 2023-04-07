@@ -1,5 +1,5 @@
 # Digital Systems - Project 1
-This is a project that aims to program a simple timer using Assembly Language for Arm v7 Archtecture for an Orange Pi PC Plus attached to a Shield to a Breadboard with a 16x2 LCD Display and some buttons.
+This project involves programming a simple timer using Assembly Language for Arm v7 Architecture on an Orange Pi PC Plus, which is attached to a shield and a breadboard with a 16x2 LCD display and several buttons. The objective of the project is to utilize the Orange Pi's capabilities to create a functional timer that can count down from a specified time and provide visual feedback on the LCD display.
 
 ## Used components
 
