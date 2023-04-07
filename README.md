@@ -90,6 +90,10 @@ This is a project that aims to program a simple timer using Assembly Language fo
    #### How to use it for testing
     1. Open a dedicated terminal window
     2. Type: watch gpio readall
+ #### Image of result (without "watch")
+        With "watch" it will be updated every 2 seconds
+<img src="https://github.com/alexsami-lopes/Digital-Systems-Project-1/blob/15edc915f0052c32c2efb64937aee7c13ad9caed/images/Print_of_WiringOP_gpio_readall.png" alt="Breadboard" width="558" height="561">
+    
     
     
 ## How to compile and use the assembly code
@@ -100,5 +104,5 @@ This is a project that aims to program a simple timer using Assembly Language fo
     4. ./timer
 
 # Image of the Circuit on the Breadboard
-<img src="https://drive.google.com/file/d/1_l2X3UfHdgJp5xq63nNsr6KPeTvCSbNI/view?usp=share_link" alt="Breadboard" width="800" height="600">
+<img src="https://github.com/alexsami-lopes/Digital-Systems-Project-1/blob/15edc915f0052c32c2efb64937aee7c13ad9caed/images/Imagem-da-Protoboard.jpeg" alt="Breadboard" width="800" height="600">
 
