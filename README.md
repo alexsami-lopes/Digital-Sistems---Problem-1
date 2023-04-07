@@ -118,7 +118,7 @@ This project involves programming a simple timer using Assembly Language for Arm
     1. git clone https://github.com/alexsami-lopes/Digital-Systems-Project-1.git
     2. cd Digital-Systems-Project-1
     3. make
-    4. ./timer
+    4. sudo ./timer
 
 # Image of the Circuit on the Breadboard
 <img src="https://github.com/alexsami-lopes/Digital-Systems-Project-1/blob/15edc915f0052c32c2efb64937aee7c13ad9caed/images/Imagem-da-Protoboard.jpeg" alt="Breadboard" width="800" height="600">
