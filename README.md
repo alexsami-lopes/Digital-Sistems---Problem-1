@@ -145,4 +145,7 @@ Through trial and error, we were able to successfully complete the first three s
 
 # Additional research material used in this project
  [![Datasheets: 16x2 LCD By Hand (No microcontroller)](https://i.ytimg.com/vi/cXpeTxC3_A4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHBX2cY3UOvb4u9vZWfDjoxgzfXg)](https://www.youtube.com/watch?v=cXpeTxC3_A4)
+
+
+ - [Return to Table of Contents](#table-of-contents)
  
