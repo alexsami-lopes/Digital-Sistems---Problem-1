@@ -144,5 +144,5 @@ Through trial and error, we were able to successfully complete the first three s
  Although the project is incomplete at the moment, we acquired valuable knowledge during the programming process. We may consider resuming the project in the future to further develop our skills and complete the remaining steps.
 
 # Additional research material used in this project
- [![Datasheets: 16x2 LCD By Hand (No microcontroller)](https://i.ytimg.com/vi/cXpeTxC3_A4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHBX2cY3UOvb4u9vZWfDjoxgzfXg)](https://www.youtube.com/embed/cXpeTxC3_A4?list=TLPQMjgwMzIwMjO0iFaCgRmXXQ)
+ [![Datasheets: 16x2 LCD By Hand (No microcontroller)](https://i.ytimg.com/vi/cXpeTxC3_A4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHBX2cY3UOvb4u9vZWfDjoxgzfXg)](https://www.youtube.com/watch?v=cXpeTxC3_A4)
  
