@@ -46,7 +46,7 @@ This is a project that aims to program a simple timer using Assembly Language fo
 ## How to compile and use the assembly code
    #### On the terminal logged to the Orange Pi by ssh type:
     1. git clone 
-    2. cd /Digital-Sistems-Project-1
+    2. cd /Digital-Systems-Project-1
     3. make
     4. ./timer
 
