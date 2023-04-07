@@ -106,3 +106,20 @@ This is a project that aims to program a simple timer using Assembly Language fo
 # Image of the Circuit on the Breadboard
 <img src="https://github.com/alexsami-lopes/Digital-Systems-Project-1/blob/15edc915f0052c32c2efb64937aee7c13ad9caed/images/Imagem-da-Protoboard.jpeg" alt="Breadboard" width="800" height="600">
 
+
+# Testing
+During the testing phase, we divided our efforts into the following steps:
+
+ 1. Configuring the GPIO port connected to an LED through the attached shield to OUT.
+ 2. Turning on the LED by sending a "1" to the configured port.
+ 3. Following the instructions on the HD44780U datasheet, we attempted to initialize the 16x2 display, paying close attention to the sequence and timings specified.
+ 4. Sending the word "timer" to the display.
+ 5. Sending the number "9" to the display.
+ 6. Developing the logic for a countdown timer.
+ 7. Developing the logic to send the data of each number to the display.
+ 8. Attempting to integrate everything.
+ 
+Through trial and error, we were able to successfully complete the first three steps. However, we encountered difficulties in steps 4-8. We were unable to display "timer" on the 16x2 display or program the logic to count down from an initially set time to zero on time.
+
+# Final Analysis
+Although the project is incomplete at the moment, we acquired valuable knowledge during the programming process. We may consider resuming the project in the future to further develop our skills and complete the remaining steps.
