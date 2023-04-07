@@ -14,6 +14,55 @@ This is a project that aims to program a simple timer using Assembly Language fo
   * Appropriate wires
   * 16x2 LCD Display Module
   
+## Orange PC Plus Informations
+
+ ### Hardware Specifications
+
+   #### CPU
+    * H3 Quad-core Cortex-A7 H.265/HEVC 4K
+   #### GPU	
+    * Mali400MP2 GPU @600MHz
+    * Supports OpenGL ES 2.0
+   #### Memory (SDRAM)	
+    * 1GB DDR3 (shared with GPU)
+   #### Onboard Storage
+    * TF card (Max. 32GB)
+    * 8GB eMMC Flash
+   #### Onboard Network	
+    * 10/100 Ethernet RJ45
+   #### Video Input
+    * A CSI input connector camera:
+    * Supports 8-bit YUV422 CMOS sensor interface
+    * Supports CCIR656 protocol for NTSC and PAL
+    * Supports SM pixel camera sensor
+    * Supports video capture solution up to 1080p@30fps
+   #### Audio Input
+    * MIC
+   #### Video Outputs
+    * Supports HDMI output with HDCP
+    * Supports HDMI CEC
+    * Supports HDMI 30 function
+    * Integrated CVBS
+    * Supports simultaneous output of HDMI and CVBS
+   #### Audio Output
+    * 3.5 mm Jack and HDMI
+   #### Power Source
+    * DC input, USB OTG input don't supply power
+   #### USB 2.0 Ports
+    * Three USB 2.0 HOST, one USB 2.0 OTG
+   #### Buttons
+    * Power button
+   #### Low-level peripherals
+    * 40 Pins Header
+   #### GPIO(1x3) pin
+    * UART, Ground.
+   #### LED
+    * Power led & Status led
+   #### Key
+    * IR input,Power
+   #### Supported OS
+    * Android Lubuntu, Debian Image
+
 ## Operating System
 
  * Armbian 28.08.8 Jammy - Kernel Linux 5.15.74-sunxi
