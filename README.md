@@ -1,7 +1,25 @@
 # Digital Systems - Project 1
-This project involves programming a simple timer using Assembly Language for Arm v7 Architecture on an Orange Pi PC Plus, which is attached to a shield and a breadboard with a 16x2 LCD display and several buttons. The objective of the project is to utilize the Orange Pi's capabilities to create a functional timer that can count down from a specified time and provide visual feedback on the LCD display.
+This project involves programming a simple timer using Assembly Language for Arm v7 Architecture on an Orange Pi PC Plus, which is connected to a shield, a breadboard with a 16x2 LCD display, and several push buttons. The goal of the project is to utilize the capabilities of the Orange Pi to create a functional timer that can count down from a specified time and provide visual feedback on the LCD display. In addition to the countdown function, the code must also incorporate the following features with the help of the push buttons:
+ * Start countdown
+ * Pause or resume the countdown
+ * Restart the countdown to the initially set time
 
-## Used components
+## Table of Contents
+
+- [Digital Systems - Project 1](#digital-systems---project-1)
+- [Table of Contents](#table-of-contents)
+- [Used components](#used-components)
+- [Orange PC Plus Information](#orange-pc-plus-information)
+- [Operating System](#operating-system)
+- [Access by SSH](#access-by-ssh)
+- [Auxiliary Software Testing Tool](#auxiliary-software-testing-tool)
+- [How to compile and use the assembly code](#how-to-compile-and-use-the-assembly-code)
+- [Image of the Circuit on the Breadboard](#image-of-the-circuit-on-the-breadboard)
+- [Testing](#testing)
+- [Final Analysis](#final-analysis)
+- [Additional research material used in this project](#additional-research-material-used-in-this-project)
+
+## Used Components
 
   * Orange PC Plus with Power Supply 5v 3a dc
   * GPIO 4-Inch Ribbon Cable For Raspberry Pi Zero/Zero W/A+/B+/Pi 2/Pi 3 With 40pins
@@ -14,9 +32,9 @@ This project involves programming a simple timer using Assembly Language for Arm
   * Appropriate wires
   * 16x2 LCD Display Module - HD44780U
   
-## Orange PC Plus Informations
+## Orange PC Plus Information
 
- ### Hardware Specifications
+ ### Hardware Specification
 
    #### CPU
     * H3 Quad-core Cortex-A7 H.265/HEVC 4K
@@ -95,7 +113,6 @@ This project involves programming a simple timer using Assembly Language for Arm
 <img src="https://github.com/alexsami-lopes/Digital-Systems-Project-1/blob/15edc915f0052c32c2efb64937aee7c13ad9caed/images/Print_of_WiringOP_gpio_readall.png" alt="Breadboard" width="558" height="561">
     
     
-    
 ## How to compile and use the assembly code
    #### On the terminal logged to the Orange Pi by ssh type:
     1. git clone https://github.com/alexsami-lopes/Digital-Systems-Project-1.git
@@ -108,7 +125,7 @@ This project involves programming a simple timer using Assembly Language for Arm
 
 
 # Testing
-During the testing phase, we divided our efforts into the following steps:
+ During the testing phase, we followed a series of steps to ensure that the project was working as intended. These steps included:
 
  1. Configuring the GPIO port connected to an LED through the attached shield to OUT.
  2. Turning on the LED by sending a "1" to the configured port.
@@ -118,8 +135,14 @@ During the testing phase, we divided our efforts into the following steps:
  6. Developing the logic for a countdown timer.
  7. Developing the logic to send the data of each number to the display.
  8. Attempting to integrate everything.
+ 9. Developing the logic for the buttons, including starting the countdown, pausing/resuming the countdown, and restarting the countdown to the initially set time.
+ 10. Testing and debugging all components together.
  
-Through trial and error, we were able to successfully complete the first three steps. However, we encountered difficulties in steps 4-8. We were unable to display "timer" on the 16x2 display or program the logic to count down from an initially set time to zero on time.
+Through trial and error, we were able to successfully complete the first three steps. However, we encountered difficulties in steps 4-10. We were unable to display "timer" on the 16x2 display or program the logic to count down from an initially set time to zero on time.
 
 # Final Analysis
-Although the project is incomplete at the moment, we acquired valuable knowledge during the programming process. We may consider resuming the project in the future to further develop our skills and complete the remaining steps.
+ Although the project is incomplete at the moment, we acquired valuable knowledge during the programming process. We may consider resuming the project in the future to further develop our skills and complete the remaining steps.
+
+# Additional research material used in this project
+ [![Datasheets: 16x2 LCD By Hand (No microcontroller)](https://i.ytimg.com/vi/cXpeTxC3_A4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHBX2cY3UOvb4u9vZWfDjoxgzfXg)](https://www.youtube.com/embed/cXpeTxC3_A4?list=TLPQMjgwMzIwMjO0iFaCgRmXXQ)
+ 
