@@ -12,7 +12,7 @@ This is a project that aims to program a simple timer using Assembly Language fo
   * 6mm 2 Pin Momentary Tactile Tact Push Buttons
   * Appropriate resistors
   * Appropriate wires
-  * 16x2 LCD Display Module
+  * 16x2 LCD Display Module - HD44780U
   
 ## Orange PC Plus Informations
 
@@ -99,5 +99,6 @@ This is a project that aims to program a simple timer using Assembly Language fo
     3. make
     4. ./timer
 
-
+# Image of the Circuit on the Breadboard
+<img src="https://drive.google.com/file/d/1_l2X3UfHdgJp5xq63nNsr6KPeTvCSbNI/view?usp=share_link" alt="Breadboard" width="800" height="600">
 
